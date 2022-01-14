@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/ramais.css">
+    <link rel="shortcut icon" href="../imagens/icone/rpa.ico" />
+    <script src="../js/cadastroRamal.js"></script>
+    <title>Cadastro de ramais</title>
+</head>
+
+<body>
+    <div class="tituloCaixa">
+    <header class="headTitulo">
+        <h1 class="titulo">Manutenção de ramais</h1>
+    </header>
+    </div>
+    <div class="container-content">
+        <div class="dadosInput">
+            <form>
+                <fieldset class="dados">
+                    <legend style="text-align: center; font-size: 30px; margin-bottom: 20px; color: white; text-shadow: 2px 2px 2px black;;">Dados do colaborador</legend>
+                    <div class="inputCaixa">
+                        <label class="labelDados"> Ramal: </label>
+                        <input type="text" class="ramalInput btnInput" placeholder="Informe o ramal desejado" id="ramal" autocomplete="off">
+                    </div>
+                    <div class="inputCaixa">
+                        <label class="labelDados"> Nome: </label>
+                        <input type="text" class="nomeInput btnInput" placeholder="Nome do colaborador" id="nome" autocomplete="off">
+                    </div>
+                    <div class="inputCaixa">
+                        <label class="labelDados"> Setor </label>
+                        <select class="selecaoDepart" id="departamento">
+                            <option value="0">Escolha o departamento</option>
+                            <option value="0">Escolha o departamento</option>
+                            <option value="1">Atendimento</option>
+                            <option value="2">Comercial</option>
+                            <option value="3">Compras</option>
+                            <option value="4">Contabilidade / Controladoria</option>
+                            <option value="5">COT</option>
+                            <option value="6">Financeiro</option>
+                            <option value="7">Gente e Gestão</option>
+                            <option value="8">Perdas e danos</option>
+                            <option value="9">Tecnologia</option>
+                        </select>
+                    </div>
+                </fieldset>
+        </div>
+        <div class="btnSessao">
+            <button class="btnForm"> Pesquisar </button>
+            <button class="btnForm"> Listar </button>
+            <button class="btnForm" onclick="cadastrarRamal()"> Adicionar </button>
+            <button class="btnForm"> Alterar </button>
+            <button class="btnForm"> Remover </button>
+        </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: rpafont;
+    src: url(../open-sans/OpenSans-BoldItalic.ttf);
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: rpafont;
+    background-color: rgba(10,33,74,1);
+    color: white;
+}
+
+body {
+    line-height: 1;
+}
+
+p {
+    margin: 15px;
+}
+
+
+.header {
+    width: 70vw;
+    border-left: solid 3px red;
+    margin: 2em;
+    padding: 10px;
+    background-color: rgb(194, 190, 190, 0.3);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.conteudo{
+    border-bottom: solid 1px red;
+    border-top: solid 1px red;
+    
+}
+
+.inicio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fig-inicio{
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+
+.card {
+    flex: 1;
+    margin: 15px;
+    
+}
+
+.card-container-ligacao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subtitulo {
+    margin: 15px;
+    padding: 10px;
+    font-size: 3em;
+    width: max-content;
+}
+
+.texto {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(194, 190, 190, 0.3);
+}
+
+
+.ligacoes {
+    border-bottom: solid 1px red;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.status{
+    border-bottom: solid 1px red;
+}
+
+.status h4 {
+    padding-left: 18px;
+}
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container-botao {
+    margin-top: 55px;
+    border-top: solid 1px red;
+    
+}
+
+.historico {
+    border-top: none;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.img-status {
+    display: flex;
+    flex: 1;
+}
+
+.img-5 {
+    padding-top: 25px;
+}

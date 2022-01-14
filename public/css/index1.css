@@ -1,0 +1,142 @@
+body{
+    background-image:url('../imagens/rpa.jpeg');
+    background-color: #0a214a;
+    background-position:top;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    font-family: rpafont;
+    float: none;
+    
+   }
+
+   @font-face {
+    font-family: rpafont;
+    src: url(../open-sans/OpenSans-BoldItalic.ttf);
+  }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.caixaPesquisa{
+    float: right;
+    margin-top: 30px;
+}
+
+.corpo{
+    background-color: #0a214a;
+}
+
+th{
+    text-align: center;
+    margin-bottom: 600px;
+    padding-bottom: 25px;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.lista-unidades{
+    border: solid red 2px;
+    width: fit-content;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    font-family: rpafont;
+    padding-left:5px;
+    font-size:18px;
+    height:32px;
+    width:330px;
+    border-radius: 3px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    font-family: rpafont;
+    height:38px;
+    width:70px;
+    border-radius: 3px;
+    margin-right: 3px; margin-left: 10px; 
+    font-weight:bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 0, 0);
+    border: 2px solid black;
+    text-shadow: 3px 3px 3px black;
+  }
+
+.ramais{
+    width: 40%;
+    height: auto;
+    margin-left: 15px;
+}
+
+.header-title{
+    display: inline-block;
+    text-align: center;
+}
+
+.btn{
+    font-family: rpafont;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 25%; width: 170px; min-width: 170px;
+    border-radius: 5px;
+    background-color: rgb(240, 0, 0);
+    opacity: 1;
+    margin: 10px ; padding: 5px 5px;
+    border: 2px solid black;
+    display: inline-block;
+    text-shadow: 3px 3px 3px black;
+}
+
+.btn:hover{
+    font-family: rpafont;
+    background-color: rgb(190, 0, 0);
+    opacity: 1;
+    font-family: rpafont;
+    color: whitesmoke;
+}
+
+table{
+    padding:15px;
+    width: 550px;
+}
+
+#titulo{
+    color:#ef0001;
+    font-size: 25px;
+    text-align: center;
+    width:auto;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+#colaborador{
+    font-size: 50px;
+}
+
+#ramal{
+    font-size: 50px;
+    padding-top: 2px;
+}

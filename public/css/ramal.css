@@ -1,0 +1,103 @@
+body{
+    background-image:url('../imagens/rpa.jpeg');
+    background-color: #0a214a;
+    background-position:top;
+    background-attachment: fixed;
+    color: whitesmoke;
+    background-repeat: no-repeat;
+    font-family: rpafont;
+    float: none;
+    
+   }
+
+   @font-face {
+    font-family: rpafont;
+    src: url(../open-sans/OpenSans-BoldItalic.ttf);
+  }
+
+    a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container-content{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 4%;
+}
+
+.titulo {
+    margin: 2%;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    font-size: 60px;
+    border: red 3px solid;
+    border-radius: 50px;
+    
+}
+
+.ajuda{
+    color: white;
+    background-color: transparent;
+    border: red solid 3px;
+    font-size: 33px;
+    border-radius: 45%;
+    margin-top: 4%;
+    margin-left: auto;
+    transition: border 0.3s;
+}
+
+
+
+.ajuda:hover {
+    border: white 3px solid;
+    text-shadow: 3px 3px 3px black ;
+}
+
+.listaFiliais {
+    list-style: none;
+    margin: 5%;
+    width: 20vw;
+    height: 90vh;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+
+.listaFiliais .matriz:hover {
+    font-size: 50px;
+    border-bottom: red 1px solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+.listaFiliais .aracaju:hover {
+    font-size: 50px;
+    border-bottom: red 1px solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+.listaFiliais .gaspar:hover {
+    font-size: 50px;
+    border-bottom: red 1px solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+.listaFiliais .saoPaulo:hover {
+    font-size: 50px;
+    border-bottom: red 1px solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+.listaFiliais .belem:hover {
+    font-size: 50px;
+    border-bottom: red 1px solid;
+    text-shadow: 3px 3px 3px black;
+}
+
+

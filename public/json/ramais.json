@@ -1,0 +1,62 @@
+{
+    "depart" : {
+        "atendimento" : [
+                {"nome" : "Gislene", "ramal" : "1001" },
+                {"nome" : "Elza Cantara", "ramal" : "1002" },
+                {"nome" : "Ana Prado", "ramal" : "1003" },
+                {"nome" : "Roseli Cardoso", "ramal" : "1004" },
+                {"nome" : "Yasmin Gonçalves", "ramal" : "1005" },
+                {"nome" : "Amanda Silva", "ramal" : "1006" },
+                {"nome" : "Claudia Cunha", "ramal" : "1007" },
+                {"nome" : "Maiara Inocencio", "ramal" : "1008" },
+                {"nome" : "Jenifer Cunha", "ramal" : "1009" },
+                {"nome" : "Angelica Castro", "ramal" : "1010" },
+                {"nome" : "Andreia Santos", "ramal" : "1011" },
+                {"nome" : "Danila Fernandes", "ramal" : "1012" },
+                {"nome" : "Daniela Souza", "ramal" : "1013" },
+                {"nome" : "Patricia Souza", "ramal" : "1014" },
+                {"nome" : "Renata Iamada", "ramal" : "1015" },
+                {"nome" : "Liliane Pereira", "ramal" : "1016" }
+            ],
+            "perdasDanos" : [
+                {"nome" : "Andressa Ribeiro", "ramal" : "3001" },
+                {"nome" : "Stefanie Lima", "ramal" : "3002" },
+                {"nome" : "Jeffany Paulino", "ramal" : "3003" },
+                {"nome" : "Tamires Sousa", "ramal" : "3004" },
+                {"nome" : "Gabriela Diniz", "ramal" : "3005" },
+                {"nome" : "Daiana Silva", "ramal" : "3006" },
+                {"nome" : "Ione Cavalcante - SPO", "ramal" : "3007" },
+                {"nome" : "Adriana Donati", "ramal" : "3008" }
+            ],
+            "financeiro" : [
+                {"nome" : "Tatiane Farias", "ramal" : "4001" },
+                {"nome" : "Henrique Diniz", "ramal" : "4002" },
+                {"nome" : "Gisele Cavalini", "ramal" : "4003" },
+                {"nome" : "Erico Pelegrino", "ramal" : "4004" },
+                {"nome" : "Viviane Santos", "ramal" : "4005" },
+                {"nome" : "Maciel Lima", "ramal" : "4006" },
+                {"nome" : "Marilia Nogueira", "ramal" : "4007" },
+                {"nome" : "Erica Carrero", "ramal" : "4008" },
+                {"nome" : "Larissa Rodrigues", "ramal" : "4009" },
+                {"nome" : "Alessandra Viana", "ramal" : "4010" }
+            ],
+            "contabilidade" : [
+                {"nome" : "Marcelo Oliveira", "ramal" : "5001" },
+                {"nome" : "Rosi Santos", "ramal" : "5002" },
+                {"nome" : "Luana Mota", "ramal" : "5003" },
+                {"nome" : "Beatriz Oliveira", "ramal" : "5004" },
+                {"nome" : "Geovana Feitosa", "ramal" : "5005" }
+            ],
+            "compras" : [
+                {"nome" : "Diego Rosa", "ramal" : "7002" }
+            ],
+            "cot" : [
+                {"nome" : "Ronaldo Matos", "ramal" : "8001" },
+                {"nome" : "Vanessa Bueno", "ramal" : "8002" }
+            ],
+            "tecnologia" : [
+                {"nome" : "Roque Ribeiro", "ramal" : "9901" },
+                {"nome" : "Paulo Eduardo", "ramal" : "9903" }
+            ]
+        }      
+}
